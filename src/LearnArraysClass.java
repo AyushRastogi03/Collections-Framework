@@ -12,7 +12,7 @@ public class LearnArraysClass {
         Integer[] numbers = { 10, 2, 32, 12, 15, 76, 17, 48, 79, 9 };
         Arrays.sort(numbers);
 
-        Arrays.parallelSort(numbers);
+        Arrays.parallelSort(numbers); // only when elements exceed 8192
         // 8192
 
         Arrays.fill(numbers, 12);
