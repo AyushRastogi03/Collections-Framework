@@ -3,6 +3,8 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 
 public class LearnPriorityQueue {
+    
+    // in Priority queue order of insertion does not matter , when we enter all elements then if we try to print it or peak or poll it will return the smallest element
 
     public static void main(String[] args) {
 
